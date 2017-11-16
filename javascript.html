@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		alert("Welcome");
+		function cek()
+		{
+			var angka = document.getElementById('angka').value;
+			var angka2 = document.getElementById('angka2').value;
+			var hasil = parseInt(angka)+parseInt(angka2);
+			document.write(hasil);
+			//alert(angka);
+		}
+	</script>
+
+</head>
+<body>
+	<input id="angka">+<input id="angka2">=<input id="hasil">
+	<button onclick="cek()">Cek</button>
+</body>
+</html>
